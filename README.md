@@ -77,8 +77,8 @@ To solve the problem, we will need a new metric, sMAPE, symmetric Mean Absolute 
 
 We need to predict two values:
 
-    - rougher concentrate recovery rougher.output.recovery
-    - final concentrate recovery final.output.recovery
+- rougher concentrate recovery rougher.output.recovery
+- final concentrate recovery final.output.recovery
 
 ## Conclusion
 The best model for predicting the recovery rate of gold from gold ore is the Random Forest Regressor Model. The model achieved the best sMAPE score among all the models, indicating superior predictive performance. While the Decision Tree Regressor Model also performed well, the Random Forest Regressor Model outperformed it with a lower sMAPE score of 11.270081553781658. However, it's worth noting that the Random Forest Regressor Model took longer to run due to its complexity, but in the deployed model, we mostly care about prediction time, not training time.
